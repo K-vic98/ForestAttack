@@ -470,7 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eda3c3a66b25f9409123fb85af13da6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 100
+  _health: 50
   _weapons:
   - {fileID: 3886453592018052139, guid: d8ae9b7c3bc883f489c749b243e57805, type: 3}
   _shootPoint: {fileID: 1012714393}
@@ -588,9 +588,9 @@ MonoBehaviour:
   _waves:
   - Template: {fileID: 6231590043478054864, guid: eeffc6747af725543a3feec30ef37de2,
       type: 3}
-    Delay: 1
+    Delay: 2
     Count: 4
-  - Template: {fileID: 6231590043478054864, guid: eeffc6747af725543a3feec30ef37de2,
+  - Template: {fileID: 2872343814851381620, guid: fad3dc04111669240802aaea8f1efd6f,
       type: 3}
     Delay: 1
     Count: 8
