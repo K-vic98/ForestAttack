@@ -27,12 +27,9 @@ public class Player : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    private void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            _currentWeapon.Shoot(_shootPoint);
-        }
+        _currentWeapon.Shoot(_shootPoint);
     }
 
     public void ApplyDamage(int damage)

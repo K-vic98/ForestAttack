@@ -1749,6 +1749,7 @@ GameObject:
   - component: {fileID: 868261803}
   - component: {fileID: 868261802}
   - component: {fileID: 868261805}
+  - component: {fileID: 868261806}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1856,6 +1857,32 @@ MonoBehaviour:
   _weapons:
   - {fileID: 3886453592018052139, guid: d8ae9b7c3bc883f489c749b243e57805, type: 3}
   _shootPoint: {fileID: 1012714393}
+--- !u!61 &868261806
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868261801}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.024904013, y: 0.6413863}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.25}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92190313, y: 1.3103986}
+  m_EdgeRadius: 0
 --- !u!1 &879645196
 GameObject:
   m_ObjectHideFlags: 0
